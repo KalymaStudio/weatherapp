@@ -9,7 +9,7 @@ import {
     RAIN,
     SNOW,
     WINDY
-} from './../constants/weathers';
+} from '../../../constants/weathers';
 
 const stateToIconName = weatherState => {
     switch (weatherState) {
