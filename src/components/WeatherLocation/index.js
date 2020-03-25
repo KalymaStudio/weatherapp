@@ -3,6 +3,7 @@ import Location from './Location';
 import WeatherData from './WeatherData';
 import {SUN} from '../../constants/weathers';
 import './style.css';
+/*probar git */
 
 const data = {
     temperature: 20,
