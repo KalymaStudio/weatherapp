@@ -9,7 +9,9 @@ import {
     SUN,
     RAIN,
     SNOW,
-    WINDY
+    WINDY,
+    THUNDER,
+    DRIZZLE
 } from '../../../constants/weathers';
 
 const stateToIconName = weatherState => {
@@ -25,9 +27,13 @@ const stateToIconName = weatherState => {
         case SNOW:
             return "snow";  
         case WINDY:
-            return "windy";                                 
+            return "windy";   
+        case THUNDER:
+            return "day-thunderstorm";
+        case DRIZZLE:
+            return "day-showers";                                  
         default:
-            return "day-sunny"; 
+            return "day-sunny";    
     }
 };
 
