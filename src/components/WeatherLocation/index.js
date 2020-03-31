@@ -39,7 +39,7 @@ class WeatherLocation extends Component {
                 <CircularProgress />}
             </div>
         )
-    };
+    }
 }
 
 WeatherLocation.propTypes = {

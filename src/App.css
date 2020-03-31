@@ -41,3 +41,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     transform: rotate(360deg);
   }
 }
+.detail{
+  background: #eee;
+  height: 85vh;
+  width: 100%;
+  margin-top: 10px;
+}

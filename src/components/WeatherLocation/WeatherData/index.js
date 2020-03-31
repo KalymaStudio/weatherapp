@@ -13,7 +13,7 @@ const WeatherData = ({ data }) => {
             <WeatherExtraInfo humidity={humidity} wind={wind} />
         </div>
     )
-};
+}
 
 WeatherData.propTypes = {
     data: PropTypes.shape({

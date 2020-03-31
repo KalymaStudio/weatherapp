@@ -1,7 +1,9 @@
 .weatherLocationCont{    
-    width: 400px;
+    width: calc(100% - 10px);
     border-radius: 5px;
-    margin: 15px auto;
+    margin: 10px auto;
+    box-sizing: border-box;
+    min-width: 430px;
 }
 .locationCont{
     background-color: rgba(192, 192, 192, 0.493);
